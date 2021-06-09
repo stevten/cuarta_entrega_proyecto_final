@@ -1,0 +1,63 @@
+@import "variables.scss";
+
+/* footer */
+
+.contacto{
+    background-color: $negro;
+
+    h2{
+        color: $amarillo;
+    }
+
+    /* formulario */
+
+    .formInput{
+        font-size: 1.5rem;
+    }
+
+    Input{
+        @extend .formInput;
+
+        .btn{
+            color: $amarillo;
+            background-color: black;
+            font-size: 1.5rem;
+            padding: 0.5rem 3rem;
+        }
+        
+        .btn:hover{
+            background-color: $blanco;
+            color: $negro;
+        }
+    }
+
+    /* redes sociales */
+    
+    .redes{
+        margin-top: 2rem;
+        font-size: 3rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+
+        a{
+            color: $amarillo;
+
+            i{
+                margin: 0 1rem;
+            }
+        }
+    }
+}
+
+/* pagina de contacto */
+
+#contacto-page{
+    height: 100vh;
+}
+
+
+
+
+
+

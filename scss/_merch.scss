@@ -1,0 +1,47 @@
+@import "variables.scss";
+
+/* pagina productos */
+
+#productos{
+
+    .card{
+        margin-bottom: 2rem;
+    }
+
+    .modal{
+
+        .modal-header{
+            color: $amarillo;
+            background-color: $negro;
+        }
+        
+        .modal-body{
+            padding: 0;
+            background-color: black;
+
+            h4{
+                padding-top: 0.5rem;
+                color: $amarillo;
+            }
+
+            p{
+                color: $blanco;
+            }
+        }
+        
+        .modal-footer{
+            background-color: $negro;
+
+            .btn{
+                color: $blanco;
+                font-size: 1.5rem;
+                padding: 0.5rem 2.5rem;
+            }
+            
+            .btn:hover{
+                background-color: $gris;
+                color: $negro;
+            }
+        }
+    }
+}

@@ -1,0 +1,175 @@
+@import "variables.scss";
+
+@media(min-width: 360px){
+
+/* index */
+
+/* seccion portada */
+
+#portada{
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("/img/portada.jpg");
+    background-position: 50vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 90vh;
+
+    .texto-portada{
+        padding-left: 1rem;
+        top: 40%;
+        left: 5%;
+        text-align: left;
+        position: absolute;
+        
+
+        h1{
+            color: $amarillo;
+            text-transform: uppercase;
+        }
+
+        p{
+            text-transform: uppercase;
+            color: $blanco;
+        }
+
+        .redes{
+            margin-top: 3rem;
+            font-size: 3rem;
+
+            i{
+                color: $amarillo;
+                margin: 0 1rem;
+            }
+        }
+    }
+    
+}
+
+/* seccion lanzamientos */
+
+#release{
+    width: 100%;
+    height: 82vh;
+    background-image: url(../img/white_bg.jpg);
+        
+    .video{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+        iframe{
+            width: 100%;
+            height: 18rem;
+            }
+        
+        .h3{
+            padding-top: 2rem;
+        }    
+
+        .p{
+            margin: 2rem 0 2rem;
+        }
+    }
+}
+
+/* seccion shows */
+
+#shows{
+
+    h2{
+        color: $amarillo;
+    }
+
+    .eventos{
+        padding: 2rem 0;
+
+        .fecha{
+            p{
+                color: $amarillo;
+                font-size: 2rem;
+            }
+        }
+
+        .info{
+            color: $blanco;
+            font-size: 1.5rem;
+
+            .info-titulo{
+                color: $amarillo;
+                text-transform: uppercase;
+                font-size: 2rem;
+            }
+        }
+
+        .btn{
+            color: $amarillo;
+            background-color: $negro;
+            font-size: 1.5rem;
+            padding: 0.5rem 3rem;
+        }
+        
+        .btn:hover{
+            background-color: $gris;
+            color: $negro;
+        }
+        
+    }
+
+    
+
+}
+
+}
+
+@media(min-width: 768px){
+
+/* seccion portada */
+
+#portada{
+
+    .texto-portada{
+        left: 10%;
+    }
+}
+
+/* seccion lanzamientos */
+
+#release{
+
+    .video{
+
+        iframe{
+            height: 26rem;
+            }
+    }
+    
+    }
+}
+
+@media(min-width: 1024px){
+
+/* seccion portada */
+
+#portada{
+
+    .texto-portada{
+        left: 15%;
+    }
+}
+
+/* seccion lanzamientos */
+ 
+#release{
+    height: 70vh;
+
+    .video{
+        
+        iframe{
+            height: 30rem;
+            }
+    }
+    
+}
+    
+}

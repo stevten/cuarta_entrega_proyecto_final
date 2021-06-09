@@ -1,0 +1,95 @@
+@import "variables.scss";
+
+/* pagina nosotros */
+
+#bio{
+
+    h1{
+        color: $amarillo;
+        text-transform: uppercase;
+    }
+
+    p{
+        text-transform: uppercase;
+        color: $blanco;
+    }
+}
+
+/* seccion de cards de integrantes */
+
+#nosotros{
+
+    .band{
+        margin: 3rem 0;
+        align-items: center;
+    
+        .boxImg{
+            max-width: 55rem;
+    
+            img{
+                max-width: 100%;
+            }
+        }
+
+        h3{
+            margin-top: 1rem;
+            color: $amarillo;
+        }
+
+        p{
+            color: $blanco;
+        }
+    
+        .links{
+            font-size: 2.5rem;
+    
+            i{
+                padding-right: 2rem;
+                color: $amarillo;
+            }
+        }
+    
+    }
+
+    .band-reverse{
+        display: flex;
+        flex-flow: row-reverse wrap;
+
+        margin: 2rem 0;
+        align-items: center;
+    
+        .boxImg{
+            max-width: 55rem;
+    
+            img{
+                max-width: 100%;
+            }
+        }
+
+        h3{
+            margin-top: 1rem;
+            color: $amarillo;
+        }
+
+        p{
+            color: $blanco;
+        }
+    
+        .links{
+            font-size: 2.5rem;
+    
+            i{
+                color: $amarillo;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

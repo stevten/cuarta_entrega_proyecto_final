@@ -1,0 +1,45 @@
+/* estilos pagina musica */
+
+#titulos{
+    h2{
+        color: $blanco;
+    }
+}
+
+/* seccion ep */
+
+#ep{
+    margin-bottom: 3rem;
+
+    h3{
+        margin-bottom: 2rem;
+        color: $amarillo;
+    }
+
+    p{
+        color: $blanco;
+    }
+}
+
+/* seccion proximo lanzamiento*/
+
+#proximo{
+    margin: 2rem auto 3rem;
+
+    h3{
+        margin-bottom: 2rem;
+        color: $amarillo;
+    }
+
+    p{
+        color: $blanco;
+    }
+
+    .img-box{
+        max-width: 40rem;
+
+        img{
+            max-width: 100%;
+        }
+    }
+}
